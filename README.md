@@ -15,13 +15,13 @@ Não permitiremos mensagens negativas ou ofensivas. Tente ser bem-vindo e positi
 
 Você pode adicionar quase tudo ao arquivo index.html entre os comentários indicados:
 
-`            <!-- Adicione sua mensagen aqui -->
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Nome do Visitante</h5>
-                <p class="card-text">Mensagem do visitante...</p>
-              </div>
-            </div>`
+`            <!-- Adicione sua mensagen aqui -->`
+           ` <div class="card">`
+             ` <div class="card-body">`
+               ` <h5 class="card-title">Nome do Visitante</h5>`
+               ` <p class="card-text">Mensagem do visitante...</p>`
+              `</div>`
+            `</div>`
 
 
 Portanto, sinta-se livre para usar sua imaginação!
