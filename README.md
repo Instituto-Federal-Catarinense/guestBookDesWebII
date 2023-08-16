@@ -24,13 +24,13 @@ Você pode adicionar quase tudo ao arquivo index.html entre os comentários indi
     <p class="card-text">Mensagem do visitante...</p>
   </div>
 </div>
-\``` 
+``` 
 
 Portanto, sinta-se livre para usar sua imaginação! Se você não estiver se
 sentindo muito criativo, pode adicionar uma citação ou um pequeno texto como os
 exemplos nesta página: https://www.w3schools.com/w3css/w3css_quotes.asp E
-adicione seu nome a ele :) # Minha alteração não foi aprovada :( Reservamo-nos o
-direito de retirar ou não acrescentar nada que achemos que não caberá aqui. Além
-disso, esta página é uma página da comunidade e o conteúdo adicionado pode ser
-alterado posteriormente.
-````
+adicione seu nome a ele :) 
+
+# Minha alteração não foi aprovada :( 
+Reservamo-nos o direito de retirar ou não acrescentar nada que achemos que não caberá aqui. Além disso, esta página é uma página da comunidade e o conteúdo adicionado pode ser alterado posteriormente.
+
