@@ -1,90 +1,77 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Livro de Visitas</title>
+    <!-- Inclua os arquivos CSS do Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .jumbotron {
+        display: flex;
+        align-items: center;
+        background-color: #007bff;
+        color: white;
+        padding: 2rem;
+      }
 
-<head>
-  <title>Livro de visitas Desenvolvimento Web II</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Satisfy">
-  <link href="https://fonts.googleapis.com/css2?family=Crafty+Girls&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster&effect=shadow-multiple">
-  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2017.css">
-  <link href="https://fonts.googleapis.com/css2?family=Geologica&display=swap" rel="stylesheet">
-</head>
+      .logo {
+        max-height: 100px;
+        margin-right: 20px;
+      }
+    </style>
+  </head>
 
-<body>
-
-  <!-- Content -->
-  <div class="w3-content" style="max-width:1920px;margin-top:40px;margin-bottom:40px">
-
-    <div class="w3-panel">
-      <h1><b>Livro de visitas Desenvolvimento Web II</b></h1>
-    </div>
-
-    <!-- Slideshow -->
-    <div class="w3-container">
-      <div class="w3-display-container">
-        <img src="img_guestbook_wall.jpg" alt="Image from Nicolas Dmítrichev via unsplash.com" style="width:100%">
-        <div class="w3-display-topleft w3-container w3-padding-32">
-          <span class="w3-white w3-padding-large w3-animate-bottom">Compartilhe sua mensagem aqui!</span>
+  <body>
+    <header>
+      <div class="container">
+        <img
+          src="./Logo_IFC_horizontal_Sombrio.png"
+          alt="Logo"
+          class="img-fluid mb-3"
+          style="max-height: 100px"
+        />
+      </div>
+      <div class="jumbotron jumbotron-fluid bg-primary text-white text-center">
+        <div class="container">
+          <h1 class="display-4">Livro de Visitas</h1>
+          <h2>Desenvolvimento Web II - Prof. Joédio</h2>
         </div>
       </div>
-    </div>
-    <!-- Grid -->
-    <div class="w3-row w3-container">
-      <div class="w3-center w3-padding-64">
-        <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">O que é isso?</span>
+    </header>
+
+    <main>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col">
+            <h2 class="display-4">Mensagens Anteriores</h2>
+
+            <!-- Adicione sua mensagen aqui -->
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Nome do Visitante</h5>
+                <p class="card-text">Mensagem do visitante...</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
       </div>
-      <div class="w3-col l3 m6 w3-light-grey w3-container w3-padding-16">
-        <h3>Aprenda</h3>
-        <p>Estude como usar Git and GitHub neste <a href="https://www.w3schools.com/git/default.asp"
-            title="w3schools.com Git Tutorial" target="_blank" class="w3-hover-text-green">Git Tutorial</a>.</p>
+    </main>
+
+    <footer class="bg-dark text-white py-4">
+      <div class="container text-center">
+        <p>Instituto Federal de Educação, Ciência e Tecnologia Catarinense – Campus Avançado Sombrio</p>
+        <p>Endereço: Av. Prefeito Francisco Lummertz Júnior, 931 – CEP 88960-000 – Sombrio/SC</p>
+        <p>Telefones (48) 3533-4001 – (48) 3533-2712
+        </p>
       </div>
-
-      <div class="w3-col l3 m6 w3-grey w3-container w3-padding-16">
-        <h3>Alteração</h3>
-        <p>Fork e Clone este <a href="https://github.com/Instituto-Federal-Catarinense/guestBookDesWebII.git"
-            title="Guestbook Git Repository" target="_blank" class="w3-hover-text-green">repositório GitHub</a>, para a sua conta Git ou GitHub.</p>
-      </div>
-
-      <div class="w3-col l3 m6 w3-dark-grey w3-container w3-padding-16">
-        <h3>Colabore</h3>
-        <p>Adicione uma mensagem <a
-            href="https://instituto-federal-catarinense.github.io/guestBookDesWebII/" title="Guestbook Git Repository"
-            target="_blank" class="w3-hover-text-green">README.md</a>.</p>
-      </div>
-
-      <div class="w3-col l3 m6 w3-black w3-container w3-padding-16">
-        <h3>Contribua</h3>
-        <p>Adicione um <a href="https://github.com/w3schools-test/w3schools-test.github.io/pulls" title="GitHub Pull Request"
-            target="_blank" class="w3-hover-text-green">pull request</a>, e veja se a sua alteração foi aprovada!</p>
-      </div>
-    </div>
-
-    <!-- Grid -->
-    <div class="w3-row-padding" id="about">
-      <div class="w3-center w3-padding-64">
-        <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Deixe uma mensagem</span>
-      </div>
-    </div>
-
-<!-- Insira sua mensagem aqui -->
-
-
-
-<!-- Mensagens do usuário final -->
-</div>
-    <!-- Footer -->
-    <footer class="w3-container w3-padding-32 w3-light-grey w3-center">
-      <a href="#" class="w3-button w3-black w3-margin">Início</a>
-      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank"
-          class="w3-hover-text-green">w3.css</a></p>
     </footer>
 
-</body>
-
+    <!-- Inclua o arquivo JavaScript do Bootstrap (opcional, mas necessário para alguns recursos do Bootstrap) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
