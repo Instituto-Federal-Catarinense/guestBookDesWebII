@@ -1,10 +1,10 @@
-# Livro de visitas para w3schools.com Tutorial Git
+# Livro de visitas público da disciplina Desenvolvimento Web II
 
 Este é o projeto Livro de visitas público da disciplina Desenvolvimento Web II com o qual você pode contribuir.
 Se você está apenas começando, sugiro que comece pelo tutorial aqui: https://www.w3schools.com/git
 
 # Deixe uma mensagem para nós!
-Este repositório pretende ser um lugar onde nossos usuários podem deixar mensagens para que outras pessoas vejam.
+Este repositório pretende ser um lugar onde nossos estudantes podem deixar mensagens para que outras pessoas vejam.
 
 Você pode ver o resultado aqui: https://instituto-federal-catarinense.github.io/guestBookDesWebII/
 
