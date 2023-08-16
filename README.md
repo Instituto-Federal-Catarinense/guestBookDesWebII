@@ -16,7 +16,7 @@ Não permitiremos mensagens negativas ou ofensivas. Tente ser bem-vindo e positi
 
 Você pode adicionar quase tudo ao arquivo index.html entre os comentários indicados:
 
-````html
+```html
 <!-- Adicione sua mensagen aqui -->
 <div class="card">
   <div class="card-body">
