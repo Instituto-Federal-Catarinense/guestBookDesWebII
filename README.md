@@ -1,12 +1,12 @@
 # Livro de visitas para w3schools.com Tutorial Git
 
-Este é o projeto GitHub público com o qual você pode contribuir.
+Este é o projeto Livro de visitas público da disciplina Desenvolvimento Web II com o qual você pode contribuir.
 Se você está apenas começando, sugiro que comece pelo tutorial aqui: https://www.w3schools.com/git
 
 # Deixe uma mensagem para nós!
 Este repositório pretende ser um lugar onde nossos usuários podem deixar mensagens para que outras pessoas vejam.
 
-Você pode ver o resultado aqui: https://w3schools-test.github.io/
+Você pode ver o resultado aqui: https://instituto-federal-catarinense.github.io/guestBookDesWebII/
 
 Geralmente, temos apenas uma condição:
 Não permitiremos mensagens negativas ou ofensivas. Tente ser bem-vindo e positivo!
